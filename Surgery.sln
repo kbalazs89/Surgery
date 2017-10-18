@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surgery", "Surgery\Surgery.csproj", "{8CB86774-B64E-49BE-910D-26BC1231DD51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surgery.dal", "Surgery.dal\Surgery.dal.csproj", "{7BCD0912-D6BB-47A6-8D24-BDC578E4DFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{32421D9D-0670-4079-BC47-6CFF420BF9CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8CB86774-B64E-49BE-910D-26BC1231DD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB86774-B64E-49BE-910D-26BC1231DD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB86774-B64E-49BE-910D-26BC1231DD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCD0912-D6BB-47A6-8D24-BDC578E4DFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCD0912-D6BB-47A6-8D24-BDC578E4DFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCD0912-D6BB-47A6-8D24-BDC578E4DFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCD0912-D6BB-47A6-8D24-BDC578E4DFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32421D9D-0670-4079-BC47-6CFF420BF9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32421D9D-0670-4079-BC47-6CFF420BF9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32421D9D-0670-4079-BC47-6CFF420BF9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32421D9D-0670-4079-BC47-6CFF420BF9CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

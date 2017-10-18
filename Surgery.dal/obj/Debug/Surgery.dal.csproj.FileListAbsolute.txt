@@ -1,0 +1,6 @@
+C:\Users\kissbalazs\source\repos\Surgery\Surgery.dal\bin\Debug\Surgery.dal.dll
+C:\Users\kissbalazs\source\repos\Surgery\Surgery.dal\bin\Debug\Surgery.dal.pdb
+C:\Users\kissbalazs\source\repos\Surgery\Surgery.dal\obj\Debug\Surgery.dal.csprojResolveAssemblyReference.cache
+C:\Users\kissbalazs\source\repos\Surgery\Surgery.dal\obj\Debug\Surgery.dal.csproj.CoreCompileInputs.cache
+C:\Users\kissbalazs\source\repos\Surgery\Surgery.dal\obj\Debug\Surgery.dal.dll
+C:\Users\kissbalazs\source\repos\Surgery\Surgery.dal\obj\Debug\Surgery.dal.pdb

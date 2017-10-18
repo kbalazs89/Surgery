@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Surgery"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Surgery Patient List" Height="450.106" Width="401.907">
     <Grid>
-        
+        <ListBox  SelectedItem="{Binding SelectedPatient}" ItemsSource="{Binding PatientList}" HorizontalAlignment="Left" Height="299" Margin="12,60,0,0" VerticalAlignment="Top" Width="235">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Label Content="{Binding Name}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Content="Modify patient data" HorizontalAlignment="Left" Margin="262,110,0,0" VerticalAlignment="Top" Width="122" Click="ModifyPatientClick"/>
+        <Button Content="New patient" HorizontalAlignment="Left" Margin="262,68,0,0" VerticalAlignment="Top" Width="122" Click="NewPatientClick"/>
+        <Button Content="Treatment" HorizontalAlignment="Left" Margin="262,153,0,0" VerticalAlignment="Top" Width="122" Click="TreatmentClick"/>
     </Grid>
 </Window>

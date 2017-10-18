@@ -1,0 +1,18 @@
+﻿<Window x:Class="Surgery.TreatmentFormWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Surgery"
+        mc:Ignorable="d"
+        Title="TreatmentFormWindow" Height="479.832" Width="447.059">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24*"/>
+            <RowDefinition Height="245*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Patient name:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="{Binding TreatmentViewModel.Patient.Name}" HorizontalAlignment="Left" Margin="135,49,0,0" Grid.Row="1" VerticalAlignment="Top" Width="152" Height="18"/>
+
+    </Grid>
+</Window>
